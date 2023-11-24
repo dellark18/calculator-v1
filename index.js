@@ -5,31 +5,23 @@ document.getElementById("num2-el").textContent = num2
 let sumTotal = document.getElementById("sum-el")
 
 function add() {
-    addCal = num1 + num2
-    sumAnswer = addCal
-    sumTotal.textContent += sumAnswer
-    sumTotal = 0
+    let addCal = num1 + num2
+    sumTotal.textContent = addCal
 }
 
 function subtract() {
-    minusCal = num1 - num2
-    sumAnswer = minusCal
-    sumTotal.textContent += sumAnswer
-    sumTotal = 0
+    let minusCal = num1 - num2
+    sumTotal.textContent = minusCal
 }
 
 function divide() {
-    divCal = num1 / num2
-    sumAnswer = divCal
-    sumTotal.textContent += sumAnswer
-    sumTotal = 0
+    let divCal = num1 / num2
+    sumTotal.textContent = divCal
 }
 
 function multiply() {
-    mulCal = num1 * num2
-    sumAnswer = mulCal
-    sumTotal.textContent += sumAnswer
-    sumTotal = 0
+    let mulCal = num1 * num2
+    sumTotal.textContent = mulCal
 }
 // Create four functions: add(), subtract(), divide(), multiply() ✅
 // Call the correct function when the user clicks on one of the buttons ✅
