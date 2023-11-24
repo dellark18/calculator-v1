@@ -6,22 +6,22 @@ let sumTotal = document.getElementById("sum-el")
 
 function add() {
     let addCal = num1 + num2
-    sumTotal.textContent = addCal
+    sumTotal.textContent = "Sum: " + addCal
 }
 
 function subtract() {
     let minusCal = num1 - num2
-    sumTotal.textContent = minusCal
+    sumTotal.textContent = "Sum: " + minusCal
 }
 
 function divide() {
     let divCal = num1 / num2
-    sumTotal.textContent = divCal
+    sumTotal.textContent = "Sum: " + divCal
 }
 
 function multiply() {
     let mulCal = num1 * num2
-    sumTotal.textContent = mulCal
+    sumTotal.textContent = "Sum: " + mulCal
 }
 // Create four functions: add(), subtract(), divide(), multiply() ✅
 // Call the correct function when the user clicks on one of the buttons ✅
