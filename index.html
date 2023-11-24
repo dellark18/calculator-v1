@@ -3,15 +3,18 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <span id="num1-el"></span>
-        <span id="num2-el"></span>
-        <br>
-        <button>Add</button>
-        <button>Subtract</button>
-        <button>Divide</button>
-        <button>Multiply</button>
-        <br>
-        <span id="sum-el">Sum: </span>
+        <div class="container">
+            <h1>Calculator</h1>
+            <span id="num1-el"></span>
+            <span id="num2-el"></span>
+            <br>
+            <button onclick="add()">Add</button>
+            <button onclick="subtract()">Subtract</button>
+            <button onclick="divide()">Divide</button>
+            <button onclick="multiply()">Multiply</button>
+            <br>
+            <span id="sum-el">Sum: </span>
+        </div>
         <script src="index.js"></script>
     </body>
 </html>
